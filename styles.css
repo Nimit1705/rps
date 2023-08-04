@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+  
+.heading {
+    margin-top: 20px;
+    text-align: center;
+}
+.selections {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin : 20px;
+}
+
+.userinp,
+.compinp {
+  width: 300px;
+  height: 40px;
+}
+
+/* .label{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 12px;
+    transform: translateY(-50%);
+} */
+  
+.user {
+    display: flex;
+    justify-content: center;
+}
+
+#rock{
+    height: 200px;
+    width: 200px;
+    margin:30px;
+    border-radius: 10%;
+    font-size: larger;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+#paper{
+    height: 200px;
+    width: 200px;
+    margin:30px;
+    border-radius: 10%;
+    font-size: larger;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+#scissors{
+    height: 200px;
+    width: 200px;
+    margin:30px;
+    border-radius: 10%;
+    font-size: larger;  
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:active{
+    transform: scale(0.97);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.results h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+#resultBox{
+    width: 610px;
+    height:60px;
+    align-self: center;
+}
+
